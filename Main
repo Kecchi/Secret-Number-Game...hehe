@@ -17,7 +17,7 @@ for guessesTaken in range(1, 7):
         break  # Correct guess
         
 if guess == secretNumber:
-    print ("HUH!? It cannot be...you guessed.......the secret.../nYou guessed in " + str(guessesTaken) + " guesses!")
+    print ("HUH!? It cannot be...you guessed.......the secret...\nYou guessed in " + str(guessesTaken) + " guesses!")
     
 else:
-    print ("HeheheheHEHEHEHE. You'll never know my secret now!!! /n.../n......./n.......ok it was " + str(secretNumber))        
+    print ("HeheheheHEHEHEHE. You'll never know my secret now!!! \n...\n.......\n.......ok it was " + str(secretNumber))      
